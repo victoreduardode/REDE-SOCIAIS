@@ -21,35 +21,3 @@ async function quantidadeUsuarios(){
 }
 
 quantidadeUsuarios()
-
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap');
-
-:root {
-    --bg-color: #222831;
-    --primary-color: #DDDDDD;
-    --secondary-color: #F05454;
-    --font: 'Nunito Sans', sans-serif;
-}
-
-body {
-    background-color: var(--bg-color);
-    color: var(--primary-color);
-    font-family: var(--font);
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 1rem;
-}
-
